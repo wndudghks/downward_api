@@ -33,8 +33,6 @@
 name: Publish Docker Multi Platform GitHub image
 
 
- 
-
 # This workflow uses actions that are not certified by GitHub.
 
 # They are provided by a third-party and are governed by
@@ -42,10 +40,6 @@ name: Publish Docker Multi Platform GitHub image
 # separate terms of service, privacy policy, and support
 
 # documentation.
-
-
- </code></pre>
-
 
  
 
@@ -91,9 +85,6 @@ env:
   # github.repository as <account>/<repo>
 
   IMAGE_NAME: ${{ github.repository }}
-
-
- 
 
 
  
@@ -145,9 +136,6 @@ jobs:
         #with:
 
         #  cosign-release: 'v1.7.1'
-
-
- 
 
 
  
@@ -224,7 +212,8 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
           platforms: linux/amd64,linux/arm64
-'''
+
+  </code></pre>
 
 
  
