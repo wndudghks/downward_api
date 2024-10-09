@@ -29,7 +29,7 @@
 
 
  
-
+'''
 name: Publish Docker Multi Platform GitHub image
 
 
@@ -224,9 +224,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
           platforms: linux/amd64,linux/arm64
-
-
- 
+'''
 
 
  
