@@ -29,7 +29,7 @@
 
 
  
-'''
+<pre><code>
 name: Publish Docker Multi Platform GitHub image
 
 
@@ -44,7 +44,7 @@ name: Publish Docker Multi Platform GitHub image
 # documentation.
 
 
- 
+ </code></pre>
 
 
  
