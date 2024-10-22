@@ -141,4 +141,4 @@ jobs:
           platforms: linux/amd64
           build-args: |
           WHATAP_HOST: ${{ secrets.WHATAP_HOST }}
-          tags: ${{ secrets.AZURE_URL }}/${{ steps.meta.outputs.tags }}
+          tags: ${{ steps.meta.outputs.tags }}
