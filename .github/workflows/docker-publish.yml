@@ -120,7 +120,7 @@ jobs:
           # registry: ${{ env.REGISTRY }}
           # username: ${{ github.actor }}
           # password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ${{ secrets.AZURE_URL }}
+          login-server: ${{ secrets.AZURE_URL }}
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
 
